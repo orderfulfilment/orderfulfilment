@@ -1,0 +1,53 @@
+{%extends "index.html"%}
+{% block body %}
+
+
+
+<div align="left">
+
+
+  <br>
+
+  <h3>Brand Based Analytics</h3>
+<br>
+  <table  border="0">
+  
+  	 {% for a in res %}
+    <tr>
+    
+   
+    
+      <td width="200px">{{ a[0] }}</td>
+     <td><table><tr><td>POS:</td><td>
+         <div style="width: {{ a[2]*5 }}px;height: 30px; background-color: green;"></div></td><td>{{ a[2] }}%</td></tr></table></td>
+         <td ><table><tr><td>NEG:</td><td>
+             <div style="width: {{ a[2]*5 }}px;height: 30px; background-color: green;"></div></td><td>{{ a[2] }}%</td></tr></table></td>
+    </tr>
+    {% endfor %}
+  </table>
+
+   <br>
+
+  <h3>Category Based Analytics</h3>
+<br>
+	<table >
+   	 {% for a in res1 %}
+    <tr>
+   <tr>
+
+
+
+      <td width="200px">{{ a[0] }}</td>
+     <td><table><tr><td>POS:</td><td>
+         <div style="width: {{ a[2]*5 }}px;height: 30px; background-color: green;"></div></td><td>{{ a[2] }}%</td></tr></table></td>
+         <td ><table><tr><td>NEG:</td><td>
+             <div style="width: {{ a[2]*5 }}px;height: 30px; background-color: green;"></div></td><td>{{ a[2] }}%</td></tr></table></td>
+    </tr>
+   </tr>
+    {% endfor %}
+  </table>
+
+
+
+</div>
+{% endblock %}

@@ -1,0 +1,84 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+<br />
+
+
+
+
+ <form id="addoffer" name="addoffer" method="post" action="/adminaddstaffpost" enctype="multipart/form-data">
+<table width="588">
+<tr height="50px">
+    <td>
+        Name
+    </td>
+    <td>
+        <input type="text" name="name" required/>
+    </td>
+</tr>
+<tr  height="50px">
+  <td>Gender </td>
+  <td><p>
+    <label>
+      <input type="radio" name="RadioGroup1" value="Male" id="RadioGroup1_0" />
+      Male</label>
+    <br />
+    <label>
+      <input type="radio" name="RadioGroup1" value="Female" id="RadioGroup1_1" />
+      Female</label>
+    <br />
+  </p></td>
+</tr>
+<tr  height="50px">
+  <td>Date Of Birth</td>
+  <td>
+    <input type="text" name="textfield" id="textfield" required /></td>
+</tr>
+<tr  height="50px">
+  <td>House No/ Name</td>
+  <td><input type="text" name="textfield2" id="textfield2" required /></td>
+</tr>
+<tr height="50px">
+  <td>Place</td>
+  <td><input type="text" name="textfield3" id="textfield3" required /></td>
+</tr>
+<tr height="50px">
+  <td>City</td>
+  <td><input type="text" name="textfield4" id="textfield4" required /></td>
+</tr>
+<tr height="50px">
+  <td>Pin Code</td>
+  <td><input type="text" name="textfield5" id="textfield5" required /></td>
+</tr>
+<tr height="50px">
+  <td>Email ID</td>
+  <td><input type="text" name="textfield6" id="textfield6" required /></td>
+</tr>
+<tr height="50px">
+  <td>Phone Number </td>
+  <td><input type="text" name="textfield7" id="textfield7" required /></td>
+</tr>
+<tr height="50px">
+  <td>Choose File</td>
+  <td>
+    <input type="file" name="fileField" id="fileField" required /></td>
+</tr>
+<tr height="50px">
+  <td>&nbsp;</td>
+  <td><input type="submit" name="button" id="button" value="Submit" /></td>
+</tr>
+
+
+</table>
+
+
+
+
+
+ </form>
+
+
+
+
+
+
+{% endblock %}

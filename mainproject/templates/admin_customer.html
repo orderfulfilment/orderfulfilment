@@ -1,0 +1,197 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+<br />
+<form action="/searchusers" method="POST">
+<div align="left" width="70%">
+<table>
+  <tr>
+    <td width="100px"><h5>Search</h5></td>
+    <td><input type="text" name="search" id="search"></td>
+    <td><input type="submit" name="a" value="Search"></td
+  </tr>
+</table>
+</div>
+<br/>
+<br/>
+<table>
+  {% for i in range(noofrows) %}
+<tr>
+<td>
+
+<table  border="0">
+  <tr>
+    <td width="150" rowspan="7"><img src="{{ ac[i*3][7] }}" width="120px" height="120px"/></td>
+    <td width="251" height="34"><strong>{{ ac[i*3][1] }}</strong></td>
+  </tr>
+  <tr>
+    <td height="30">{{ ac[i*3][2] }}</td>
+  </tr>
+  <tr>
+    <td height="31">{{ ac[i*3][3] }}</td>
+  </tr>
+  <tr>
+    <td height="31"><strong>Address</strong></td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3][4] }}</td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3][5] }}</td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3][6] }}</td>
+  </tr>
+</table>
+</td>
+<td>
+<td>
+
+
+    <table  border="0">
+  <tr>
+    <td width="150" rowspan="7"><img src="{{ ac[i*3+1][7] }}" width="120px" height="120px"/></td>
+    <td width="251" height="34"><strong>{{ ac[i*3+1][1] }}</strong></td>
+  </tr>
+  <tr>
+    <td height="30">{{ ac[i*3+1][2] }}</td>
+  </tr>
+  <tr>
+    <td height="31">{{ ac[i*3+1][3] }}</td>
+  </tr>
+  <tr>
+    <td height="31"><strong>Address</strong></td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3+1][4] }}</td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3+1][5] }}</td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3+1][6] }}</td>
+  </tr>
+</table>
+
+
+
+</td>
+<td>
+
+
+
+
+<td>
+
+    <table  border="0">
+  <tr>
+    <td width="150" rowspan="7"><img src="{{ ac[i*3+2][7] }}" width="120px" height="120px"/></td>
+    <td width="251" height="34"><strong>{{ ac[i*3+2][1] }}</strong></td>
+  </tr>
+  <tr>
+    <td height="30">{{ ac[i*3+2][2] }}</td>
+  </tr>
+  <tr>
+    <td height="31">{{ ac[i*3+2][3] }}</td>
+  </tr>
+  <tr>
+    <td height="31"><strong>Address</strong></td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3+2][4] }}</td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3+2][5] }}</td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i*3+2][6] }}</td>
+  </tr>
+</table>
+
+
+</td>
+
+
+
+
+<td>
+
+
+
+
+<td>
+
+
+
+
+</tr>
+<tr>
+<td height="25px"></td>
+</tr>
+  {% endfor %}
+<tr>
+{% for i in range(noofrows*3,totalitems) %}
+
+  <td>
+
+<table  border="0">
+  <tr>
+    <td width="150" rowspan="7"><img src="{{ ac[i][7] }}" width="120px" height="120px"/></td>
+    <td width="251" height="34"><strong>{{ ac[i][1] }}</strong></td>
+  </tr>
+  <tr>
+    <td height="30">{{ ac[i][2] }}</td>
+  </tr>
+  <tr>
+    <td height="31">{{ ac[i][3] }}</td>
+  </tr>
+  <tr>
+    <td height="31"><strong>Address</strong></td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i][4] }}</td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i][5] }}</td>
+  </tr>
+  <tr>
+
+    <td>{{ ac[i][6] }}</td>
+  </tr>
+</table>
+
+</td>
+
+
+
+
+
+
+  {% endfor %}
+
+
+
+
+</tr>
+
+
+
+
+
+</table>
+
+
+</form>
+
+
+{% endblock %}

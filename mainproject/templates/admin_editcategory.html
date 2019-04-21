@@ -1,0 +1,14 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+ <form id="editcategory" name="editcategory" method="post" action="/editc" enctype="multipart/form-data">
+<table>
+
+
+
+ <tr><td>CATEGORY NAME</td><<td><input type=="text" name="categoryname"value="{{ r[1] }}" reqiure/></td></tr>
+    <tr><td></td><td>
+        <input type="submit" value="update" name="update"/></td>
+       </tr></table>
+     <input type="hidden" name="id" value="{{ r[0] }}">
+ </form>
+{% endblock %}

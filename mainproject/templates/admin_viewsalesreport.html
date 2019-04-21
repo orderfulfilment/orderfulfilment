@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <form name="form1" method="post" action="/viewsalesreport">
+ <table width="626" border="1">
+  <caption>
+    VIEW SALES REPORT
+    <br>
+  </caption>
+ </table>
+ <table width="386" border="1">
+   <tr>
+     <td width="199">from
+
+<label for="textfield4"></label>
+       <input type="date" name="fromdate" id="textfield4" required></td>
+     <td width="171">to
+       <label for="textfield3"></label>
+      <input type="date" name="todate" id="textfield3" required></td>
+   </tr>
+   <tr>
+     <td colspan="2"><div align="center"><a href="/viewsalereport">show</a></div></td>
+    </tr>
+ </table>
+ <table width="626" border="1">
+   <caption>
+    <br>
+    </caption>
+   <tr>
+        <td width="199" align='center'>SNO</td>
+     <td width="199" align='center'>tid</td>
+     <td width="199"  align='center'>date</td>
+     <td width="199"  align='center'>customer</td>
+     <td width="199"  align='center'>amount</td>
+   </tr>
+   {% for va in range(cn) %}
+   <tr>
+     <td>{{ va+1}}</td>
+     <td>&nbsp;ab[va][0]</td>
+     <td>ab[va][1]</td>
+     <td>va[2]</td>
+     <td>va[3]</td>
+     <td width="199" align='center'><a href="admintrans/v{{ [0] }}">more</a></td>
+   </tr>
+    {% endfor %}
+ </table>
+</form>
+</body>
+</html>

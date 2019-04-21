@@ -1,0 +1,273 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+
+
+
+<table >
+<tr>
+<td>
+    <input type="date" name="da1" id="da1"></td>
+    <td width="10px" ></td>
+    <td></td>
+      <td><input type="date" name="da2" id="da2"></td>
+     <td width="10px" ></td>
+     <td><input type="submit" name="btr" id="btr" value="GET TRANSACTION"></td>
+</tr>
+</table>
+    <table>
+<tr>
+<td>
+
+		<table border="1" id="tb" class="table table-style-1">
+			<tr style="background-color:#CC9">
+				<th>
+					TID
+				</th>
+				<th>
+                    Transaction
+                </th>
+                <th>
+                    Quantity
+                </th>
+                <th>
+                    Profit
+                </th>
+                <th>
+                    TU
+                </th>
+			</tr>
+		</table>
+		  <table border="1" id="tbb" class="table table-style-1">
+            <tr style="background-color:#CC9">
+                <td>
+                    ITMID
+                </td>
+                <td>
+                    Utility
+                </td>
+                <td>
+                Ubitem
+                </td>
+                <td>
+                Ubfp
+                </td>
+
+
+            </tr>
+            {% for i in range (sz1)%}
+            <tr>
+            <td>
+            {{itid[i]}}
+            </td>
+            <td>{{itu[i]}}</td>
+            <td>{{ub[i]}}</td>
+            <td>{{ubfp_e[i]}}</td>
+
+            </tr>
+            {%endfor%}
+
+        </table>
+        <table id="tbbb" class="table table-style-1">
+
+        <tr>
+
+        <td><input type="text" name="tmin" placeholder="Minimum utility" id="tmin"></td>
+        <td><input type="submit" name="submit" id="submit" value="D2HUP"></td>
+
+        </tr>
+        </table>
+        <table width="574" border="1" id="dhup">
+    <tr style="background-color:#CC9">
+      <th height="32">Sl.No</th>
+      <th>Item Code</th>
+      <th>Added item</th>
+      <th>Utility</th>
+      <th width="63">UBitem</th>
+      <th width="34">UBFPE</th>
+      <th width="34">STATUS</th>
+    </tr>
+
+
+</table>
+
+	<table id="btn" >
+	<tr>
+	    <input type="submit" value="TOP K ITEMS" id="tpk">
+	</tr>
+	</table>
+
+
+	<table id="tk" border="1" class="table table-style-1">
+	  <tr style="background-color:#CC9">
+      <th height="32">HUIITEM</th>
+      <th>UBFPE</th>
+
+
+    </tr>
+	</table>
+
+	<table id="tkitm" border="1" class="table table-style-1">
+	  <tr style="background-color:#CC9">
+      <th height="32">OFFER ITEMS</th>
+
+
+
+    </tr>
+	</table>
+</td>
+</tr></table>
+
+
+<script src="/static/jquery.js"></script>
+<script>
+ $(document).ready(function () {
+
+        $("#dhup").hide()
+        $("#btn").hide()
+        $("#tk").hide()
+        $("#tpk").hide()
+        $("#tbb").hide()
+        $("#tbbb").hide()
+        $("#tb").hide()
+
+        });
+$("#btr").click(function () {
+             var dt1=$("#da1").val();
+             var dt2=$("#da2").val();
+             alert(dt1)
+            alert(dt2)
+            $.getJSON("/trans",{
+                dt1:dt1,
+                dt2:dt2
+            },function (data) {
+                var k = data['tr'].length;
+                var k1 = data['itid'].length;
+                alert(k)
+                alert(k1)
+                for (var i = 0; i < k; i++) {
+                    var tid = data['r1'][i]
+                    var tra = data['tr'][i]
+                    var qun = data['qun'][i]
+                    var prf = data['prf'][i]
+                    var tuu = data['tuu'][i]
+                    $("#tb").append("<tr><td>" + tid + "</td><td>" + tra + "</td><td>" + qun + "</td><td>" + prf + "</td><td>" + tuu + "</td></tr>");
+                }
+                for (var i = 0; i < k1; i++) {
+                    var itid = data['itid'][i]
+                    var itub = data['itu'][i]
+                    var ub = data['ub'][i]
+                    var ubfp_e = data['ubfp_e'][i]
+                    $("#tbb").append("<tr><td>" + itid + "</td><td>" + itub + "</td><td>" + ub + "</td><td>" + ubfp_e + "</td></tr>");
+                }
+            });
+        $("#tbb").show()
+        $("#tbbb").show()
+        $("#tb").show()
+        });
+$("#submit").click(function () {
+            var min=$("#tmin").val();
+            if(min=="")
+            {
+            alert('Must enter your minimum utility')
+            }
+            else
+            {
+            $("#btn").show()
+            $("#dhup").show()
+             $("#tpk").show()
+            alert("Successsfully added minimum utility")
+            $.getJSON("/dhup",{
+                min:min
+
+            },function (data) {
+                  var k=data['nad'].length;
+                   for (var i = 0; i < k; i++) {
+                        var slno = i + 1;
+                        var itcode = data['itst'][i]
+                        var nad = data['nad'][i]
+                        var ut = data['ut'][i]
+                        var ub = data['ub'][i]
+                        var ubf = data['ubf'][i]
+                         var status = data['sta'][i]
+                         $("#dhup").append("<tr><td>" + slno + "</td><td>" + itcode + "</td><td>" + nad + "</td><td>" + ut + "</td><td>" + ub + "</td><td>" + ubf + "</td><td>" + status + "</td></tr>");
+
+
+
+                    }
+
+
+
+            });
+            }
+            });
+
+
+            $("#tpk").click(function () {
+
+                        $("#tk").show()
+
+
+
+
+
+
+
+            $.getJSON("/tpkit",{
+
+
+
+
+            },function (data) {
+                  var k=data['hut'].length;
+                  var k1=data['itn'].length;
+                   for (var i = 0; i < k; i++) {
+
+                        var hut = data['hut'][i]
+                        var ubfpe = data['ubfp'][i]
+
+                         $("#tk").append("<tr><td>" + hut + "</td><td>" + ubfpe + "</td></tr>");
+
+
+
+                    }
+                     for (var i = 0; i < k1; i++) {
+
+                        var itnm = data['itn'][i]
+
+
+                         $("#tkitm").append("<tr><td>" + itnm + "</td></tr>");
+
+
+
+                    }
+
+
+
+
+            });
+
+
+
+            });
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+{##}
+{% endblock %}

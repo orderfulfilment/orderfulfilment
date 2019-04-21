@@ -1,0 +1,38 @@
+
+{%extends "index.html"%}
+{% block body %}
+<style type="text/css">
+#form1 table tr td strong {
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+</style>
+
+<form id="form1" name="myaccount" method="POST" action="/addtocartpost">
+  <table width="703">
+    <tr>
+      <td width="300" rowspan="4" valign="top">
+      <input type="hidden" name="pid" id="pid" value="{{ pdata[0] }}"   />
+      <img src="/{{ pdata[6] }}" width="294" height="300" /></td>
+      <td width="389"><strong>{{ pdata[1] }}</strong></td>
+    </tr>
+
+    <tr>
+      <td height="60px" valign="bottom">{{ pdata[2] }}</td>
+    </tr>
+    <tr>
+      <td>Rs: {{ pdata[3] }}</td>
+    </tr>
+    <tr>
+      <td><input type="text" name="qty" placeholder="Qty" /></td>
+    </tr>
+    <tr>
+      <td height="220" valign="top"><input type="submit" name="button" id="button" value="Add To Cart" /></td>
+    </tr>
+  </table>
+  <br />
+ 
+  
+  
+
+</form>
+{% endblock %}

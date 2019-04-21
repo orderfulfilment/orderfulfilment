@@ -1,0 +1,20 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+ <form id="addproduct" name="addproduct" method="post" action="/admin_addproduct" enctype="multipart/form-data">
+<table><tr><td></br></td></tr>
+    <tr><td width="250px">PRODUCT CODE</td><td></td><td align="left"><input type="text" name="productcode" required maxlength="40"/></td></tr><tr><td></br></td></tr>
+     <tr><td>PROUDCT NAME</td><td></td><td align="left"><input type="text" name="productname" required maxlength="40"/></td></tr><tr><td></br></td></tr>
+     <tr><td>BRAND NAME</td><td></td><td align="left"><input type="text" name="brandname" required maxlength="40"/></td></tr><tr><td></br></td></tr>
+     <tr><td>PRICE</td><td></td><td align="left"><input type="number" name="price" required maxlength="20"/></td></tr><tr><td></br></td></tr>
+     <tr><td>PROFIT</td><td></td><td align="left"><input type="number" name="profit" required maxlength="20"/></td></tr><tr><td></br></td></tr>
+
+
+
+     <tr><td>DESCRIPTION</td><td></td><td align="left"><input type="text" name="description"/></td></tr><tr><td></br></td></tr>
+    <tr><td>CATEGORY</td><td></td><td align="left"><select name="category">  {% for va in r %}<option value="{{ va[0] }}">{{ va[1] }}</option>{% endfor %}</select></td></tr><tr><td></br></td></tr>
+    <tr><td>ADD PROFILE PICTURE</td><td></td><td><input type="file" name="profilepicture" required/></td></tr>
+    <tr><td></br></td></tr><tr ><td></td><td></td><td>
+        <input type="submit" value="ADD PRODUCT" name="add"/></td>
+       </tr></table>
+ </form>
+{% endblock %}

@@ -1,0 +1,26 @@
+{%extends "index.html"%}
+{% block body %}
+
+
+   {% for a in res %}
+
+<div class="product-sec1" height="60px">
+<table>
+  <tr>
+      <td width="50px"><strong>#{{ loop.index }}</strong></td><td width="200px"><img src="/{{ a[6] }} "  width="100px" height="100px"/><td width="200px"><strong>{{ a[1] }} </strong></td><td width="200px" forecolor="red"><h2>RS:{{ a[3] }}</h2></td></table>
+
+  <!--<tr><td>{{ a[1] }} </td></tr>-->
+  </tr>
+</table>
+
+</div>
+<br>
+
+
+{% endfor  %}
+
+
+
+
+
+{% endblock %}

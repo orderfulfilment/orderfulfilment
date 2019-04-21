@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1637d26-2322-4ad7-90ff-48f5e79543dd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mainproject$myprj.coverage" NAME="myprj Coverage Results" MODIFIED="1540092596701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mainproject$Flask__prj_py_.coverage" NAME="Flask (prj.py) Coverage Results" MODIFIED="1536298921843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/mainproject$mainproject.coverage" NAME="mainproject Coverage Results" MODIFIED="1533737110144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/mainproject$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1536298302910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/mainproject$Flask__project_py_.coverage" NAME="Flask (project.py) Coverage Results" MODIFIED="1536595420618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="myprj.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myprj.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="807" column="0" lean-forward="true" selection-start-line="807" selection-start-column="0" selection-end-line="807" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <marker date="1550145404259" expanded="true" signature="539:617" ph="select * fro... login" />
+                <marker date="1550145404259" expanded="true" signature="1994:2150" ph="insert into user... " />
+                <marker date="1550145404259" expanded="true" signature="2209:2293" ph="insert into login... " />
+                <marker date="1550145404259" expanded="true" signature="2849:2900" ph="insert into category... " />
+                <marker date="1550145404259" expanded="true" signature="3107:3129" ph="select * fro... category" />
+                <marker date="1550145404259" expanded="true" signature="3589:3672" ph="update categ... " />
+                <marker date="1550145404259" expanded="true" signature="3773:3825" ph="delete from " />
+                <marker date="1550145404259" expanded="true" signature="3927:3949" ph="select * fro... category" />
+                <marker date="1550145404259" expanded="true" signature="4722:4947" ph="insert into product... " />
+                <marker date="1550145404259" expanded="true" signature="5141:5159" ph="select * fro... user" />
+                <marker date="1550145404259" expanded="true" signature="5417:5531" ph="select user.... " />
+                <marker date="1550145404259" expanded="true" signature="5689:5910" ph="select user.... " />
+                <marker date="1550145404259" expanded="true" signature="6082:6423" ph="SELECT user.... " />
+                <marker date="1550145404259" expanded="true" signature="6689:6843" ph="select user.... " />
+                <marker date="1550145404259" expanded="true" signature="6977:7091" ph="select user.... " />
+                <marker date="1550145404259" expanded="true" signature="7265:7286" ph="select * fro... product" />
+                <marker date="1550145404259" expanded="true" signature="7594:7685" ph="select * fro... product" />
+                <marker date="1550145404259" expanded="true" signature="7956:8151" ph="select produ... offer" />
+                <marker date="1550145404259" expanded="true" signature="8092:8150" ph="select ofrid... offer_subscribed" />
+                <marker date="1550145404259" expanded="true" signature="8396:8458" ph="select brand... product" />
+                <marker date="1550145404259" expanded="true" signature="8589:8692" ph="insert into offer... " />
+                <marker date="1550145404259" expanded="true" signature="8746:9040" ph="select * fro... user" />
+                <marker date="1550145404259" expanded="true" signature="8783:9039" ph="select custi... sales_master" />
+                <marker date="1550145404259" expanded="true" signature="8839:9038" ph="select trans... sales_sub" />
+                <marker date="1550145404259" expanded="true" signature="8893:9036" ph="select produ... product" />
+                <marker date="1550145404259" expanded="true" signature="8944:9006" ph="select brand... product" />
+                <marker date="1550145404259" expanded="true" signature="9260:9347" ph="select count... product" />
+                <marker date="1550145404259" expanded="true" signature="9413:9502" ph="select score... cat_score" />
+                <marker date="1550145404259" expanded="true" signature="9958:10067" ph="select score... brand_score" />
+                <marker date="1550145404259" expanded="true" signature="10960:11057" ph="insert into offer_subscribed... " />
+                <marker date="1550145404259" expanded="true" signature="11089:11186" ph="insert into offer_subscribed... " />
+                <marker date="1550145404259" expanded="true" signature="11396:11480" ph="update offer... " />
+                <marker date="1550145404259" expanded="true" signature="11609:11659" ph="delete from " />
+                <marker date="1550145404259" expanded="true" signature="12045:12064" ph="select * fro... staff" />
+                <marker date="1550145404259" expanded="true" signature="12236:12283" ph="select * fro... staff" />
+                <marker date="1550145404259" expanded="true" signature="12418:12464" ph="delete from " />
+                <marker date="1550145404259" expanded="true" signature="13279:13486" ph="INSERT INTO staff... " />
+                <marker date="1550145404259" expanded="true" signature="13519:13600" ph="INSERT INTO login... " />
+                <marker date="1550145404259" expanded="true" signature="14374:14590" ph="UPDATE staff... " />
+                <marker date="1550145404259" expanded="true" signature="14846:14900" ph="select * fro... product" />
+                <marker date="1550145404259" expanded="true" signature="15186:15204" ph="select * fro... user" />
+                <marker date="1550145404259" expanded="true" signature="15789:15811" ph="select * fro... category" />
+                <marker date="1550145404259" expanded="true" signature="16281:16377" ph="select brand... brand_score" />
+                <marker date="1550145404259" expanded="true" signature="16404:16534" ph="select name,... category" />
+                <marker date="1550145404259" expanded="true" signature="17190:17415" ph="update produ... " />
+                <marker date="1550145404259" expanded="true" signature="17519:17573" ph="delete from " />
+                <marker date="1550145404259" expanded="true" signature="17852:18120" ph="select trans... transaction_master" />
+                <marker date="1550145404259" expanded="true" signature="18637:18843" ph="select trans... transaction_master" />
+                <marker date="1550145404259" expanded="true" signature="19341:19428" ph="insert into payment... " />
+                <marker date="1550145404259" expanded="true" signature="19666:19707" ph="select * fro... user" />
+                <marker date="1550145404259" expanded="true" signature="19868:19913" ph="select * fro... user" />
+                <marker date="1550145404259" expanded="true" signature="20506:20660" ph="update user " />
+                <marker date="1550145404259" expanded="true" signature="21057:21120" ph="update login... " />
+                <marker date="1550145404259" expanded="true" signature="21385:21444" ph="select categ... product" />
+                <marker date="1550145404259" expanded="true" signature="21566:21682" ph="insert into comment... " />
+                <marker date="1550145404259" expanded="true" signature="22187:22268" ph="select * fro... brand_score" />
+                <marker date="1550145404259" expanded="true" signature="22412:22526" ph="insert into brand_score... " />
+                <marker date="1550145404259" expanded="true" signature="22588:22695" ph="update brand... " />
+                <marker date="1550145404259" expanded="true" signature="22740:22815" ph="select * fro... cat_score" />
+                <marker date="1550145404259" expanded="true" signature="22946:23054" ph="insert into cat_Score... " />
+                <marker date="1550145404259" expanded="true" signature="23116:23208" ph="update cat_s... " />
+                <marker date="1550145404259" expanded="true" signature="23300:23389" ph="select * fro... brand_score" />
+                <marker date="1550145404259" expanded="true" signature="23520:23642" ph="insert into brand_score... " />
+                <marker date="1550145404259" expanded="true" signature="23706:23821" ph="update brand... " />
+                <marker date="1550145404259" expanded="true" signature="23868:23951" ph="select * fro... cat_score" />
+                <marker date="1550145404259" expanded="true" signature="24032:24135" ph="insert into cat_Score... " />
+                <marker date="1550145404259" expanded="true" signature="24199:24299" ph="update cat_s... " />
+                <marker date="1550145404259" expanded="true" signature="24485:24561" ph="insert into cart_table... " />
+                <marker date="1550145404259" expanded="true" signature="24814:24915" ph="insert into sales_master... " />
+                <marker date="1550145404259" expanded="true" signature="24944:25000" ph="select pdcti... cart_table" />
+                <marker date="1550145404259" expanded="true" signature="25068:25140" ph="insert into sales_sub... " />
+                <marker date="1550145404259" expanded="true" signature="25160:25209" ph="delete from " />
+                <marker date="1550145404259" expanded="true" signature="25473:25580" ph="select * fro... product" />
+                <marker date="1550145404259" expanded="true" signature="25516:25579" ph="select itemi... sales_sub" />
+                <marker date="1550145404259" expanded="true" signature="25905:25954" ph="select * fro... sales_master" />
+                <marker date="1550145404259" expanded="true" signature="26138:26291" ph="select produ... product" />
+                <marker date="1550145404259" expanded="true" signature="26354:26490" ph="select sum(p... product" />
+                <marker date="1550145404259" expanded="true" signature="26700:26840" ph="select produ... product" />
+                <marker date="1550145404259" expanded="true" signature="27115:27165" ph="delete from " />
+                <marker date="1550145404259" expanded="true" signature="27512:27533" ph="select * fro... product" />
+                <marker date="1550145404259" expanded="true" signature="27702:27872" ph="select comme... comment" />
+                <marker date="1550145404259" expanded="true" signature="28049:28154" ph="select user.... comment" />
+                <marker date="1550145404259" expanded="true" signature="28462:28507" ph="insert into comment... " />
+                <marker date="1550145404259" expanded="true" signature="29324:29362" ph="SELECT trans... sales_master" />
+                <marker date="1550145404259" expanded="true" signature="29481:29579" ph="select itemi... sales_sub" />
+                <marker date="1550145404259" expanded="true" signature="29757:29825" ph="select profi... product" />
+                <marker date="1550145404259" expanded="true" signature="30501:30677" ph="select disti... sales_sub" />
+                <marker date="1550145404259" expanded="true" signature="30819:30886" ph="select profi... product" />
+                <marker date="1550145404259" expanded="true" signature="33139:33189" ph="SELECT produ... product" />
+                <marker date="1550145404259" expanded="true" signature="35621:35687" ph="SELECT produ... product" />
+                <marker date="1550145404259" expanded="true" signature="36532:36551" ph="select * fro... staff" />
+                <marker date="1550145404259" expanded="true" signature="36784:36902" ph="INSERT INTO `order_assign`... " />
+                <marker date="1550145404259" expanded="true" signature="37102:37256" ph="SELECT `staf... login" />
+                <marker date="1550145404259" expanded="true" signature="37511:37788" ph="select user.... " />
+                <marker date="1550145404259" expanded="true" signature="38019:38322" ph="select user.... " />
+                <marker date="1550145404259" expanded="true" signature="38569:38871" ph="select user.... " />
+                <marker date="1550145404259" expanded="true" signature="39082:39279" ph="SELECT `prod... product" />
+                <marker date="1550145404259" expanded="true" signature="39474:39546" ph="UPDATE `orde... " />
+                <marker date="1550145404259" expanded="true" signature="39714:39982" ph="select user.... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewassignedorder.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/viewassignedorder.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userviewcartitems.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/userviewcartitems.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="780" column="0" lean-forward="false" selection-start-line="780" selection-start-column="0" selection-end-line="780" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbconnection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbconnection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login_main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admintemplate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admintemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2397">
+              <caret line="141" column="75" lean-forward="false" selection-start-line="141" selection-start-column="75" selection-end-line="141" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin_login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12784">
+              <caret line="752" column="25" lean-forward="false" selection-start-line="752" selection-start-column="25" selection-end-line="752" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/edit</find>
+      <find>/editpr</find>
+      <find>/editoff</find>
+      <find>/edito</find>
+      <find>offer</find>
+      <find>re</find>
+      <find>user</find>
+      <find>commen</find>
+      <find>delete from cart</find>
+      <find>add</find>
+      <find>addoff</find>
+      <find>load_trans</find>
+      <find>btr</find>
+      <find>page-heading text-center</find>
+      <find>borde</find>
+      <find>Search</find>
+      <find>getmytransactions</find>
+      <find>gettransactionsubbytid</find>
+      <find>geta</find>
+      <find>/</find>
+      <find>tpkit</find>
+      <find>tpk</find>
+      <find>getallproducts</find>
+      <find>assign</find>
+      <find>getitemsinmycart</find>
+      <find>userpaymentsummary</find>
+      <find>usergetassigned</find>
+      <find>getordererdproducts</find>
+      <find>logi</find>
+      <find>adminassignget</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/aprjt.py" />
+        <option value="$PROJECT_DIR$/project.py" />
+        <option value="$PROJECT_DIR$/templates/user_purchasehistory.html" />
+        <option value="$PROJECT_DIR$/templates/user_payment.html" />
+        <option value="$PROJECT_DIR$/templates/user_register.html" />
+        <option value="$PROJECT_DIR$/templates/admin_transcationaldetails.html" />
+        <option value="$PROJECT_DIR$/templates/admin_page.html" />
+        <option value="$PROJECT_DIR$/templates/user_comment.html" />
+        <option value="$PROJECT_DIR$/templates/admin_login.html" />
+        <option value="$PROJECT_DIR$/templates/admin_viewsalesreport.html" />
+        <option value="$PROJECT_DIR$/templates/userpage.html" />
+        <option value="$PROJECT_DIR$/templates/user_seen.html" />
+        <option value="$PROJECT_DIR$/templates/admin_addcategory.html" />
+        <option value="$PROJECT_DIR$/templates/admin_viewcayegory.html" />
+        <option value="$PROJECT_DIR$/templates/admin_editcategory.html" />
+        <option value="$PROJECT_DIR$/templates/admin_addoffer.html" />
+        <option value="$PROJECT_DIR$/templates/user_editpassword.html" />
+        <option value="$PROJECT_DIR$/templates/user_myaccount.html" />
+        <option value="$PROJECT_DIR$/templates/user_editaccount.html" />
+        <option value="$PROJECT_DIR$/templates/user_productcomments.html" />
+        <option value="$PROJECT_DIR$/templates/user_mycart.html" />
+        <option value="$PROJECT_DIR$/prj.py" />
+        <option value="$PROJECT_DIR$/templates/usermessage.html" />
+        <option value="$PROJECT_DIR$/templates/admin_addproduct.html" />
+        <option value="$PROJECT_DIR$/dfs.py" />
+        <option value="$PROJECT_DIR$/templates/admin_viewproduct.html" />
+        <option value="$PROJECT_DIR$/templates/admin_editproduct.html" />
+        <option value="$PROJECT_DIR$/templates/admin_edit_offer.html" />
+        <option value="$PROJECT_DIR$/templates/admin_viewoffers.html" />
+        <option value="$PROJECT_DIR$/templates/admin_addoffer_step2.html" />
+        <option value="$PROJECT_DIR$/templates/user_myoffers.html" />
+        <option value="$PROJECT_DIR$/templates/admin_customer.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/user_transcationaldetails.html" />
+        <option value="$PROJECT_DIR$/templates/user_mytransaction.html" />
+        <option value="$PROJECT_DIR$/templates/userviewsingletransaction.html" />
+        <option value="$PROJECT_DIR$/templates/user_myanalytics.html" />
+        <option value="$PROJECT_DIR$/templates/userviewproducts.html" />
+        <option value="$PROJECT_DIR$/templates/viewreports.html" />
+        <option value="$PROJECT_DIR$/templates/admin_hui.html" />
+        <option value="$PROJECT_DIR$/templates/admin_editstaff.html" />
+        <option value="$PROJECT_DIR$/templates/assignordertostaff.html" />
+        <option value="$PROJECT_DIR$/templates/admin_assignorder.html" />
+        <option value="$PROJECT_DIR$/templates/userviewcartitems.html" />
+        <option value="$PROJECT_DIR$/templates/user_paymentsummary.html" />
+        <option value="$PROJECT_DIR$/dbconnection.py" />
+        <option value="$PROJECT_DIR$/templates/login_main.html" />
+        <option value="$PROJECT_DIR$/templates/admintemplate.html" />
+        <option value="$PROJECT_DIR$/templates/viewassignedorder.html" />
+        <option value="$PROJECT_DIR$/myprj.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/prasad/Desktop/mainproject/templates/userviewcartitems.html" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MyPc\Desktop\New folder (4)\mainproject\templates" />
+      <recent name="C:\Users\prasad\Desktop\mainproject\templates" />
+      <recent name="C:\Users\prasad\Desktop\mainproject" />
+      <recent name="D:\MES KTPRM 2018 MCA\moni\mainproject\templates" />
+      <recent name="D:\MES KTPRM 2018 MCA\moni\mainproject\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.myprj">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mainproject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mainproject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mainproject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="mainproject" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mainproject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mainproject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="myprj" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mainproject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myprj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.myprj" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1637d26-2322-4ad7-90ff-48f5e79543dd" name="Default Changelist" comment="" />
+      <created>1533736020488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533736020488</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/userviewcartitems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13124">
+          <caret line="772" column="0" lean-forward="false" selection-start-line="772" selection-start-column="0" selection-end-line="772" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admintemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="75" lean-forward="false" selection-start-line="141" selection-start-column="75" selection-end-line="141" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12784">
+          <caret line="752" column="25" lean-forward="false" selection-start-line="752" selection-start-column="25" selection-end-line="752" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_productcomments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_mycart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/usermessage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hup.py" />
+    <entry file="file://$PROJECT_DIR$/templates/admin_addcategory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_addproduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="154" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_editproduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_edit_offer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="77" lean-forward="false" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_viewoffers.html" />
+    <entry file="file://$PROJECT_DIR$/templates/admin_addoffer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_addoffer_step2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_myoffers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_specialoffer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_viewcayegory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="142" column="6" lean-forward="true" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_editaccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_transcationaldetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_mytransaction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewreports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_myanalytics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userviewsingletransaction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14554">
+          <caret line="766" column="0" lean-forward="false" selection-start-line="766" selection-start-column="0" selection-end-line="766" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="82" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userviewproducts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16575">
+          <caret line="975" column="0" lean-forward="false" selection-start-line="975" selection-start-column="0" selection-end-line="975" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_viewproduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_hui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="214" column="29" lean-forward="false" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/assignordertostaff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_viewstaff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_assignorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_editstaff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_paymentsummary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admintemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="75" lean-forward="false" selection-start-line="141" selection-start-column="75" selection-end-line="141" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12784">
+          <caret line="752" column="25" lean-forward="false" selection-start-line="752" selection-start-column="25" selection-end-line="752" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewassignedorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userviewcartitems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="780" column="0" lean-forward="false" selection-start-line="780" selection-start-column="0" selection-end-line="780" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myprj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="807" column="0" lean-forward="true" selection-start-line="807" selection-start-column="0" selection-end-line="807" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1550145404259" expanded="true" signature="539:617" ph="select * fro... login" />
+            <marker date="1550145404259" expanded="true" signature="1994:2150" ph="insert into user... " />
+            <marker date="1550145404259" expanded="true" signature="2209:2293" ph="insert into login... " />
+            <marker date="1550145404259" expanded="true" signature="2849:2900" ph="insert into category... " />
+            <marker date="1550145404259" expanded="true" signature="3107:3129" ph="select * fro... category" />
+            <marker date="1550145404259" expanded="true" signature="3589:3672" ph="update categ... " />
+            <marker date="1550145404259" expanded="true" signature="3773:3825" ph="delete from " />
+            <marker date="1550145404259" expanded="true" signature="3927:3949" ph="select * fro... category" />
+            <marker date="1550145404259" expanded="true" signature="4722:4947" ph="insert into product... " />
+            <marker date="1550145404259" expanded="true" signature="5141:5159" ph="select * fro... user" />
+            <marker date="1550145404259" expanded="true" signature="5417:5531" ph="select user.... " />
+            <marker date="1550145404259" expanded="true" signature="5689:5910" ph="select user.... " />
+            <marker date="1550145404259" expanded="true" signature="6082:6423" ph="SELECT user.... " />
+            <marker date="1550145404259" expanded="true" signature="6689:6843" ph="select user.... " />
+            <marker date="1550145404259" expanded="true" signature="6977:7091" ph="select user.... " />
+            <marker date="1550145404259" expanded="true" signature="7265:7286" ph="select * fro... product" />
+            <marker date="1550145404259" expanded="true" signature="7594:7685" ph="select * fro... product" />
+            <marker date="1550145404259" expanded="true" signature="7956:8151" ph="select produ... offer" />
+            <marker date="1550145404259" expanded="true" signature="8092:8150" ph="select ofrid... offer_subscribed" />
+            <marker date="1550145404259" expanded="true" signature="8396:8458" ph="select brand... product" />
+            <marker date="1550145404259" expanded="true" signature="8589:8692" ph="insert into offer... " />
+            <marker date="1550145404259" expanded="true" signature="8746:9040" ph="select * fro... user" />
+            <marker date="1550145404259" expanded="true" signature="8783:9039" ph="select custi... sales_master" />
+            <marker date="1550145404259" expanded="true" signature="8839:9038" ph="select trans... sales_sub" />
+            <marker date="1550145404259" expanded="true" signature="8893:9036" ph="select produ... product" />
+            <marker date="1550145404259" expanded="true" signature="8944:9006" ph="select brand... product" />
+            <marker date="1550145404259" expanded="true" signature="9260:9347" ph="select count... product" />
+            <marker date="1550145404259" expanded="true" signature="9413:9502" ph="select score... cat_score" />
+            <marker date="1550145404259" expanded="true" signature="9958:10067" ph="select score... brand_score" />
+            <marker date="1550145404259" expanded="true" signature="10960:11057" ph="insert into offer_subscribed... " />
+            <marker date="1550145404259" expanded="true" signature="11089:11186" ph="insert into offer_subscribed... " />
+            <marker date="1550145404259" expanded="true" signature="11396:11480" ph="update offer... " />
+            <marker date="1550145404259" expanded="true" signature="11609:11659" ph="delete from " />
+            <marker date="1550145404259" expanded="true" signature="12045:12064" ph="select * fro... staff" />
+            <marker date="1550145404259" expanded="true" signature="12236:12283" ph="select * fro... staff" />
+            <marker date="1550145404259" expanded="true" signature="12418:12464" ph="delete from " />
+            <marker date="1550145404259" expanded="true" signature="13279:13486" ph="INSERT INTO staff... " />
+            <marker date="1550145404259" expanded="true" signature="13519:13600" ph="INSERT INTO login... " />
+            <marker date="1550145404259" expanded="true" signature="14374:14590" ph="UPDATE staff... " />
+            <marker date="1550145404259" expanded="true" signature="14846:14900" ph="select * fro... product" />
+            <marker date="1550145404259" expanded="true" signature="15186:15204" ph="select * fro... user" />
+            <marker date="1550145404259" expanded="true" signature="15789:15811" ph="select * fro... category" />
+            <marker date="1550145404259" expanded="true" signature="16281:16377" ph="select brand... brand_score" />
+            <marker date="1550145404259" expanded="true" signature="16404:16534" ph="select name,... category" />
+            <marker date="1550145404259" expanded="true" signature="17190:17415" ph="update produ... " />
+            <marker date="1550145404259" expanded="true" signature="17519:17573" ph="delete from " />
+            <marker date="1550145404259" expanded="true" signature="17852:18120" ph="select trans... transaction_master" />
+            <marker date="1550145404259" expanded="true" signature="18637:18843" ph="select trans... transaction_master" />
+            <marker date="1550145404259" expanded="true" signature="19341:19428" ph="insert into payment... " />
+            <marker date="1550145404259" expanded="true" signature="19666:19707" ph="select * fro... user" />
+            <marker date="1550145404259" expanded="true" signature="19868:19913" ph="select * fro... user" />
+            <marker date="1550145404259" expanded="true" signature="20506:20660" ph="update user " />
+            <marker date="1550145404259" expanded="true" signature="21057:21120" ph="update login... " />
+            <marker date="1550145404259" expanded="true" signature="21385:21444" ph="select categ... product" />
+            <marker date="1550145404259" expanded="true" signature="21566:21682" ph="insert into comment... " />
+            <marker date="1550145404259" expanded="true" signature="22187:22268" ph="select * fro... brand_score" />
+            <marker date="1550145404259" expanded="true" signature="22412:22526" ph="insert into brand_score... " />
+            <marker date="1550145404259" expanded="true" signature="22588:22695" ph="update brand... " />
+            <marker date="1550145404259" expanded="true" signature="22740:22815" ph="select * fro... cat_score" />
+            <marker date="1550145404259" expanded="true" signature="22946:23054" ph="insert into cat_Score... " />
+            <marker date="1550145404259" expanded="true" signature="23116:23208" ph="update cat_s... " />
+            <marker date="1550145404259" expanded="true" signature="23300:23389" ph="select * fro... brand_score" />
+            <marker date="1550145404259" expanded="true" signature="23520:23642" ph="insert into brand_score... " />
+            <marker date="1550145404259" expanded="true" signature="23706:23821" ph="update brand... " />
+            <marker date="1550145404259" expanded="true" signature="23868:23951" ph="select * fro... cat_score" />
+            <marker date="1550145404259" expanded="true" signature="24032:24135" ph="insert into cat_Score... " />
+            <marker date="1550145404259" expanded="true" signature="24199:24299" ph="update cat_s... " />
+            <marker date="1550145404259" expanded="true" signature="24485:24561" ph="insert into cart_table... " />
+            <marker date="1550145404259" expanded="true" signature="24814:24915" ph="insert into sales_master... " />
+            <marker date="1550145404259" expanded="true" signature="24944:25000" ph="select pdcti... cart_table" />
+            <marker date="1550145404259" expanded="true" signature="25068:25140" ph="insert into sales_sub... " />
+            <marker date="1550145404259" expanded="true" signature="25160:25209" ph="delete from " />
+            <marker date="1550145404259" expanded="true" signature="25473:25580" ph="select * fro... product" />
+            <marker date="1550145404259" expanded="true" signature="25516:25579" ph="select itemi... sales_sub" />
+            <marker date="1550145404259" expanded="true" signature="25905:25954" ph="select * fro... sales_master" />
+            <marker date="1550145404259" expanded="true" signature="26138:26291" ph="select produ... product" />
+            <marker date="1550145404259" expanded="true" signature="26354:26490" ph="select sum(p... product" />
+            <marker date="1550145404259" expanded="true" signature="26700:26840" ph="select produ... product" />
+            <marker date="1550145404259" expanded="true" signature="27115:27165" ph="delete from " />
+            <marker date="1550145404259" expanded="true" signature="27512:27533" ph="select * fro... product" />
+            <marker date="1550145404259" expanded="true" signature="27702:27872" ph="select comme... comment" />
+            <marker date="1550145404259" expanded="true" signature="28049:28154" ph="select user.... comment" />
+            <marker date="1550145404259" expanded="true" signature="28462:28507" ph="insert into comment... " />
+            <marker date="1550145404259" expanded="true" signature="29324:29362" ph="SELECT trans... sales_master" />
+            <marker date="1550145404259" expanded="true" signature="29481:29579" ph="select itemi... sales_sub" />
+            <marker date="1550145404259" expanded="true" signature="29757:29825" ph="select profi... product" />
+            <marker date="1550145404259" expanded="true" signature="30501:30677" ph="select disti... sales_sub" />
+            <marker date="1550145404259" expanded="true" signature="30819:30886" ph="select profi... product" />
+            <marker date="1550145404259" expanded="true" signature="33139:33189" ph="SELECT produ... product" />
+            <marker date="1550145404259" expanded="true" signature="35621:35687" ph="SELECT produ... product" />
+            <marker date="1550145404259" expanded="true" signature="36532:36551" ph="select * fro... staff" />
+            <marker date="1550145404259" expanded="true" signature="36784:36902" ph="INSERT INTO `order_assign`... " />
+            <marker date="1550145404259" expanded="true" signature="37102:37256" ph="SELECT `staf... login" />
+            <marker date="1550145404259" expanded="true" signature="37511:37788" ph="select user.... " />
+            <marker date="1550145404259" expanded="true" signature="38019:38322" ph="select user.... " />
+            <marker date="1550145404259" expanded="true" signature="38569:38871" ph="select user.... " />
+            <marker date="1550145404259" expanded="true" signature="39082:39279" ph="SELECT `prod... product" />
+            <marker date="1550145404259" expanded="true" signature="39474:39546" ph="UPDATE `orde... " />
+            <marker date="1550145404259" expanded="true" signature="39714:39982" ph="select user.... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

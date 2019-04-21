@@ -1,0 +1,47 @@
+{%extends "admintemplate.html"%}
+{% block body %} <form id="viewcategory" name="viewcategory" method="post" action="/viewcategory">
+<table  class="table table-style-1">
+
+    <thead>
+    <tr>
+        <th width="40">#</th>
+        <th width="143">&nbsp;</th>
+        <th width="170">Name</th>
+        <th width="92">Gender</th>
+        <th width="107">DateOfBirth</th>
+         <th width="92">Address</th>
+         <th width="64">EmailId</th>
+         <th width="55">Phone</th>
+         <th></th>
+         <th></th>
+      </tr>
+    </thead>
+    <tbody>
+{% for va in rescat %}
+  <tr>
+
+    <td >{{ loop.index }}</td>
+    <td ><img src="{{ va[10] }}" width="80" height="80" /></td>
+    <td >{{ va[1] }}</td>
+      <td >{{ va[2] }}</td>
+       <td >{{ va[3] }}</td>
+       <td >{{ va[4] }}
+       		<br />
+{{ va[5] }}
+       		<br />
+{{ va[6] }}
+       		<br />
+{{ va[7] }}
+       		<br />
+            
+       </td>
+       <td >{{ va[8] }}</td>
+       <td >{{ va[9] }}</td>
+      <td width="44" ><a href="/editstaff/{{ va[0] }}">EDIT</a></td>
+    <td width="81"><a href="/deletestaff/{{ va[0] }}">DELETE</a></td>
+  </tr>
+    {% endfor %}
+<td height="2"></tbody>
+</table>
+</form>
+{% endblock %}

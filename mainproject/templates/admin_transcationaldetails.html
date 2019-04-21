@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <form id="admin_transcationaldetails" name="admin_transcationaldetails" method="post" action="/admintrans" enctype="multipart/form-data">
+<TABLE BORDER="1">
+  <caption>
+    TRANSCATIONAL DETAILS
+  </caption>
+  <tr>
+    <td width="199" align="CENTER">SL NO</td>
+    <td width="199" ALIGN="CENTER">PRODUCT </td>
+    <td width="199" align="CENTER">CATEGORY</td>
+    <td width="199" ALIGN="center">AMOUNT</td>
+  </tr>
+    {% for va in ac %}
+  <tr>
+    <td>{{va[0]}}</td>
+    <td>&nbsp;{{va[1]}}</td>
+    <td>{{va[2]}}</td>
+    <td>&nbsp;{{va[3]}}</td>
+  </tr>
+    {%  endfor %}
+</table>
+ </form>
+</body>
+</html>

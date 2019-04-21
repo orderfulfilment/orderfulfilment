@@ -1,0 +1,31 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+ <form id="editcategory" name="editcategory" method="post" action="/inswork" enctype="multipart/form-data">
+
+     <input type="hidden" name="wid" value="{{ r }}"/>
+<table  class="table table-style-1">
+
+
+
+ <tr><td>OrderID</td><<td>{{ r }}</td></tr>
+ <tr><td>Staff Name</td><<td>
+
+     <select name="sid">
+         {% for i in data %}
+
+         <option value="{{ i[0] }}"> {{ i[1]  }}</option>
+
+         {% endfor %}
+
+
+
+     </select>
+
+
+ </td></tr>
+    <tr><td></td><td>
+        <input type="submit" value="update" name="update"/></td>
+       </tr></table>
+
+ </form>
+{% endblock %}

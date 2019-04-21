@@ -1,0 +1,69 @@
+{%extends "index.html"%}
+{% block body %}
+ <form id="editaccount" name="editaccount" method="post" action="/editaccount" enctype="multipart/form-data">
+<table width="546">
+    <tr><td></br></td></tr>
+      <tr><td></br></td></tr>
+  <tr>
+    <td>NAME</td>
+    <td><div align="left">:</div></td>
+    <td>
+      <label for="textfield"></label>
+      <input type="text" name="name" id="name"  value="{{ va[1] }}" />
+  </td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr><td></br></td></tr>
+  <tr>
+    <td>PHONE NUMBER</td>
+    <td><div align="left">:</div></td>
+    <td><label for="textfield2"></label>
+    <input type="text" name="phonenumber" id="phoneno"value="{{ va[3] }}" required /></td>
+    <td>&nbsp;</td>
+  </tr>
+ <tr><td></br></td></tr>
+  <tr>
+    <td>CITY</td>
+    <td>:</td>
+    <td>
+      <label for="textfield4"></label>
+      <input type="text" name="city" id="city"value="{{ va[3] }}" required />
+   </td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr><td></br></td></tr>
+  <tr>
+    <td>COUNTRY</td>
+    <td>:</td>
+    <td>
+      <label for="textfield5"></label>
+      <input type="text" name="country" id="country" value="{{ va[5] }}" required />
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td>PROFILE PICTURE</td>
+    <td>:</td>
+    <td>
+      <label for="textfield6"></label>
+      <input type="file" name="profilepicture" id="profilepicture"  value="{{ va[6]}} " required/>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr><td></br></td></tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>
+      <input type="submit" name="submit" id="update" value="UPDATE" />
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+ </form>
+
+{% endblock %}

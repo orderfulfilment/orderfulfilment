@@ -1,0 +1,24 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+ <form id="editproduct" name="editproduct" method="post" action="/editp" enctype="multipart/form-data">
+     <input type="hidden" name="productcode" value="{{ r[0]}}"/>
+<table><tr><td></br></td></tr>
+   <tr><td></br></td></tr>
+     <tr><td>PROUDCT NAME</td><td>:</td><td align="left"><input type="text" name="productname" value="{{ r[1]}}" required/></td></tr><tr><td></br></td></tr>
+     <tr><td>BRAND NAME</td><td>:</td><td align="left"><input type="text" name="brandname" value="{{ r[2]}}" required/></td></tr><tr><td></br></td></tr>
+     <tr><td>PRICE</td><td>:</td><td align="left"><input type="text" name="price" value="{{ r[3]}}" required/></td></tr><tr><td></br></td></tr>
+
+       <tr><td>PROFIT</td><td></td><td align="left"><input type="number" name="profit"  value="{{ r[7]}}" required maxlength="20"/></td></tr><tr><td></br></td></tr>
+
+
+     <tr><td>DESCRIPTION</td><td>:</td><td align="left"><input type="text" name= "description"value="{{ r[5]}}"/></td></tr><tr><td></br></td></tr>
+    <tr><td>CATEGORY</td><td>:</td><td align="left"><select name="category" value="{{ r[4]}}" required>{% for va in res2 %}<option value="{{ va[0] }}">{{ va[1] }}</option>{% endfor %}</select></td></tr><tr><td></br></td></tr>
+    <tr><td>ADD PROFILE PICTURE</td><td>:</td><td><input type="file" name="profilepicture"value="{{ r[6]}}" /></td></tr>
+    <tr><td></br></td></tr>
+    <tr ><td></td><td></td><td>
+        <input type="submit" value="UPDATE" name="update"/></td>
+       </tr></table>
+      <input type="hidden" name="id" value="{{ r[0] }}">
+ </form>
+{% endblock %}
+

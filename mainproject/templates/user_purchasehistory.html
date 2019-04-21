@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+ <form id="purchasehistory" name="purchasehistory" method="post" action="/purchasehistory" enctype="multipart/form-data">
+<table width="554" border="1">
+  <caption>
+    PURCHASE HISTORY
+  </caption>
+  <tr>
+    <td width="199" align="CENTER">PURCHASE_ID</td>
+    <td width="199" ALIGN="CENTER">PRODUCT NAME</td>
+    <td width="199" align="CENTER">PRICE</td>
+    <td width="199" ALIGN="center">CARD N0</td>
+      <td width="199" ALIGN="center"></td>
+  </tr>
+    {% for va in ab %}
+  <tr>
+    <td>{{ va[0] }}</td>
+    <td>&nbsp;{{ va[1] }}</td>
+    <td>{{ va[2] }}</td>
+    <td>{{ va[3] }}</td>
+   <td><a href="/purchasehistory">more</a></td>
+  </tr>
+     {% endfor %}
+
+</table>
+ </form>
+</body>
+</html>

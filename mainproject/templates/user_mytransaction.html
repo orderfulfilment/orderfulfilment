@@ -1,0 +1,43 @@
+{%extends "index.html"%}
+{% block body %}
+
+<div align="left">
+
+    <table border="1" class="table" width="100%">
+    <thead>
+        <tr>
+            <th width="134">#</th>
+            <th width="112">Date</th>
+            <th width="170">Transaction Number</th>
+            <th width="113">Total Amount</th>
+            <th width="112"></th>
+
+        </tr>
+</thead>
+        {% for row in res %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td> {{  row [2] }}</td>
+                <td> {{  row [0] }}</td>
+                <td> {{  row [1] }}</td>
+                <td> <a href="/gettransactionsubbytid/{{ row[0] }}" id="moreinfo" data="{{ row[0] }}">More</a> </td>
+            </tr>
+{#            <tr>#}
+{#			<td colspan="5" >#}
+{#			<div id="{{ row[0] }}">#}
+{#            </div>#}
+{#			</td>#}
+{#		</tr>#}
+        {% endfor %}
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock %}

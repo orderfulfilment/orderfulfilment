@@ -1,0 +1,55 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+ <form>
+
+ <table border="1">
+     <tr class="table table-style-1">
+         <thead>
+         <th>#</th>
+         <th>Name</th>
+         <th>Email</th>
+         <th>Phone</th>
+         <th>BrandScorePos</th>
+         <th>BrandScoreNeg</th>
+         <th>CategoryScorePos</th>
+         <th>CategoryScoreNegative</th>
+         <th>Probability</th>
+         <th>TransactionCount</th>
+         </thead>
+
+     </tr>
+
+     {% for m in range(0,ls) %}
+     <tr>
+
+         <td>{{ loop.index }}</td>
+         <td>{{ users[m][1] }}</td>
+         <td>{{ users[m][2] }}</td>
+         <td>{{ users[m][3] }}</td>
+         <td>{{ bpos[m] }}</td>
+         <td>{{ bneg[m] }}</td>
+         <td>{{ cpos[m] }}</td>
+         <td>{{ cneg[m] }}</td>
+     <td>{{ brandprob[m] }}</td>
+<td>{{ cnt[m] }}</td>
+     </tr>
+     {% endfor %}
+
+
+ </table>
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+{% endblock %}
+
+

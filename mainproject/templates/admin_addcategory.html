@@ -1,0 +1,13 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+ <form id="addcategory" name="admin_addcategory" method="post" action="/admin_addcategory" enctype="multipart/form-data">
+<table><tr><td></br></td></tr>
+ <tr>
+     <td>CATEGORY NAME    </td>
+     <td><input type=="text" name="categoryname" required maxlength="40" class="form-control"/></td>
+ </tr>
+  <tr height="100px"><td></td><td>
+        <input type="submit" value="ADD" name="login"/></td>
+       </tr></table>
+ </form>
+{% endblock %}

@@ -1,0 +1,40 @@
+{%extends "index.html"%}
+{% block body %}
+
+<div align="left">
+<form id="form1" name="myaccount" method="get" action="myaccount"  enctype="multipart/form-data">
+    <img src="{{va[7]}}" width="100" height="100"/>
+  <table>
+
+      <tr><td></br></td></tr>
+
+        <tr><td></br></td></tr>
+     <tr>
+      <td width="280px">NAME</td>
+      <td><label></label>{{ va[1] }}</td>
+    </tr>
+        <tr><td></br></td></tr>
+     <tr>
+      <td>PHONE NUMBER</td>
+      <td witdth="120">{{va[3]}}</td>
+    </tr><tr><td></br></td></tr>
+     <tr>
+      <td>PLACE</td>
+      <td>{{va[4]}}&nbsp;</td>
+    </tr>
+        <tr><td></br></td></tr>
+     <tr>
+      <td>CITY</td>
+      <td>{{va[5]}}&nbsp;</td>
+    </tr>
+        <tr><td></br></td></tr>
+     <tr>
+      <td>COUNTRY</td><td>{{va[6]}}</td>
+    </tr>
+        <tr><td></br></td></tr>
+     <tr><td>EMAIL</td><td>{{va[2]}}</td></tr><tr><td></br></td></tr>
+  </table>
+  <p>&nbsp;</p>
+</form>
+</div>
+{% endblock %}

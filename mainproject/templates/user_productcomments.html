@@ -1,0 +1,43 @@
+{%extends "index.html"%}
+{% block body %}
+ <form id="editpassword" name="editpassword" method="post" action="/savecomment" >
+   <input type="hidden" value="{{ id }}" name="pid"/>
+<table>
+  <tr>
+    <td width="150" valign="top">Type Here</td>
+    <td><textarea name="comment" id="comment" placeholder="Comment Here" style="margin: 0px; width: 602px; height: 153px;"></textarea> </td>
+    <td width="25px"></td>
+    <td valign="top"><input type="submit" name="btsubmit" value="Comment"/></td>
+  </tr>
+
+
+
+
+</table>
+
+
+
+ </form>
+
+<br>
+
+{% for a in data %}
+
+<div class="product-sec1">
+<table>
+  <tr><td ><img src="/{{ a[4] }} " style="border-radius: 50%;" width="50px" height="50px"/><table> <tr><td><strong>{{ a[2] }} </strong></td></tr><tr><td forecolor="red">{{ a[1] }}</td></tr></table> </td></tr>
+  <tr> <td>{{ a[0] }} </td></tr>
+  <!--<tr><td>{{ a[1] }} </td></tr>-->
+  </tr>
+</table>
+
+</div>
+<br>
+
+
+
+{% endfor  %}
+
+
+
+{% endblock %}

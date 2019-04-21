@@ -1,0 +1,29 @@
+{%extends "admintemplate.html"%}
+{% block body %} <form id="viewcategory" name="viewcategory" method="post" action="/viewcategory">
+<table  class="table table-style-1">
+
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>CATEGORYNAME</th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+{% for va in ab %}
+  <tr>
+
+    <td >{{ loop.index }}</td>
+    <td >{{ va[1] }}</td>
+
+
+
+    <td ><a href="/editcategory/{{ va[0] }}">EDIT</a></td>
+    <td><a href="/deletec/{{ va[0] }}">DELETE</a></td>
+  </tr>
+    {% endfor %}
+</tbody>
+</table>
+</form>
+{% endblock %}

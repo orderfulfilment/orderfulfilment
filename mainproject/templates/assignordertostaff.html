@@ -1,0 +1,35 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+<form action="/post_adminviewreports" method="post">
+
+   
+<br>
+
+    <table class="table">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Place</th>
+            <th>Date</th>
+            <th>Total Amount</th>
+            <th></th>
+        </tr>
+        {% for row in res %}
+            <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td>{{ row[4] }}</td>
+            <td>{{ row[5] }}</td>
+            <td><a href="/assignworks/{{ row[6] }}">Assign Order</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+
+
+</form>
+{% endblock %}

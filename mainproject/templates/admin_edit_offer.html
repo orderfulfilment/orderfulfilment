@@ -1,0 +1,18 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+ <form id="editoffr" name="editoffr" method="post" action="/edito" >
+     <input type="hidden" name="oid" value="{{ r[0]}}"/>
+<table><tr><td></br></td></tr>
+   <tr><td></br></td></tr>
+     <tr><td>PRODUCT</td><td>:</td><td align="left"><select name="productname" value="{{ r[1]}}" required>{% for va in res2 %}<option value="{{ va[0] }}">{{ va[1] }}</option>{% endfor %}</select></td></tr><tr><td></br></td></tr>
+     <tr><td>Offer</td><td>:</td><td align="left"><input type="text" name="offer" value="{{ r[2]}}" required/></td></tr><tr><td></br></td></tr>
+     <tr><td>OFFER DATE Upto</td><td>:</td><td><input type="date" id="offerdate" name="offerdate"/></td></tr>
+
+
+    <tr><td></br></td></tr>
+    <tr ><td></td><td></td><td>
+        <input type="submit" value="UPDATE" name="update"/></td>
+       </tr></table>
+      <input type="hidden" name="id" value="{{ r[0] }}">
+ </form>
+{% endblock %}

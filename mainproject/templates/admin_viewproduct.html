@@ -1,0 +1,39 @@
+{%extends "admintemplate.html"%}
+{% block body %}
+ <form id="viewproduct" name="viewproduct" method="post" action="/viewproduct" enctype="multipart/form-data">
+<table class="table table-style-1" border="1">
+  <caption>VIEW PRODUCT
+  </caption>
+
+    <thead>
+  <tr>
+    <th >#</th>
+      <th></th>
+    <th>PRODUCT NAME (BRAND)</th>
+       <th >PRICE</th>
+       <th >DESCRIPTION</th>
+        <th >PROFIT</th>
+
+    <th ></th>
+      <th></th>
+  </tr>
+  </thead>
+    <tbody>
+    {% for vc in ac %}
+  <tr>
+       <td>{{ loop.index }}&nbsp;</td>
+      <td><img src="{{ vc[6] }}" width="60px" height="60px"/> </td>
+       <td>&nbsp;{{ vc[1] }} <br>
+      {{ vc[2] }}</td>
+    <td>&nbsp;{{ vc[3] }}</td>
+      <td>&nbsp;{{ vc[5] }}</td>
+      <td>&nbsp;{{ vc[7] }}</td>
+
+    <td ALIGN="center" ><a href="/editpr/{{ vc[0] }}">EDIT</a></td>
+    <td ALIGN="center" ><a href="/deletep/{{ vc[0] }}">DELETE</a></td>
+  </tr>
+     {% endfor %}
+    </tbody>
+</table>
+ </form>
+{% endblock %}
